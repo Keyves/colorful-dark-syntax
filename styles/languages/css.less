@@ -1,0 +1,47 @@
+.source.css {
+  .attribute-name {
+    &.class {
+      color: @green;
+      & > .definition {
+        color: @green;
+      }
+    }
+    &.id {
+      color: @orange;
+      & > .definition {
+        color: @orange;
+      }
+    }
+    &.parent-selector {
+      & > .definition {
+        color: @yellow;
+      }
+    }
+  }
+  .constant {
+    color: @yellow;
+  }
+  .punctuation {
+    &.separator,
+    &.terminator {
+        color: @blue;
+    }
+    &.definition.comment {
+      color: @light-gray;
+    }
+  }
+  // highlight properties/values if they are supported
+  .property-name {
+    color: @blue;
+  }
+
+  .property-value {
+    color: @yellow;
+  }
+  .function {
+    color: @orange;
+    &.section {
+      color: @blue;
+    }
+  }
+}
