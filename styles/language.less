@@ -49,7 +49,9 @@
 
 .variable {
   color: @blue;
-
+  &.language.this {
+      color: @yellow;
+  }
   &.interpolation {
     color: darken(@blue, 10%);
   }
