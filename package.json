@@ -1,0 +1,38 @@
+{
+  "name": "colorful-dark-syntax",
+  "theme": "syntax",
+  "version": "0.2.2",
+  "description": "A dark syntax theme - css, less, js, jsx, json",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keyves/colorful-dark-syntax.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "readme": "# colorful-dark-syntax theme\n\nA dark syntax theme - css, less, js, jsx, json.\n\n![screenshot](./screenshot.png)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/Keyves/colorful-dark-syntax/issues"
+  },
+  "homepage": "https://github.com/Keyves/colorful-dark-syntax#readme",
+  "_id": "colorful-dark-syntax@0.2.2",
+  "_shasum": "1cd62930e53376891f535c507d806375d5ecb45d",
+  "_resolved": "file:../d-116420-2491-3ohk2j/package.tgz",
+  "_from": "../d-116420-2491-3ohk2j/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

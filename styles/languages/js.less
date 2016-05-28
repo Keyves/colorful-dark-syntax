@@ -1,0 +1,21 @@
+.source.js {
+	.import-all {
+		color: @light-orange;
+		// keywords are definded in https://github.com/atom/language-javascript/blob/master/grammars/javascript.cson
+		// search "instanceof" for location
+	}
+	.support {
+		&.process,
+		&.variable {
+			color: @red;
+		}
+		&.dom {
+			color: @red;
+		}
+	}
+	.constant {
+		&.undefined {
+			color: @light-yellow;
+		}
+	}
+}
