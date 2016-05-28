@@ -1,7 +1,7 @@
 {
   "name": "colorful-dark-syntax",
   "theme": "syntax",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "A dark syntax theme - css, less, js, jsx, json",
   "keywords": [
     "syntax",
