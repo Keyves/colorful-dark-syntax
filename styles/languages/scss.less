@@ -1,0 +1,14 @@
+.source.scss {
+	// highlight properties/values if they are supported
+	.variable {
+		color: @red;
+	}
+
+	.attribute-name {
+		&.parent-selector {
+			& > .punctuation.definition {
+				color: @light-yellow;
+			}
+		}
+	}
+}
