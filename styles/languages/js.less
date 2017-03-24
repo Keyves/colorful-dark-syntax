@@ -1,20 +1,20 @@
-.source.js {
-	.import-all {
+.syntax--source.syntax--js {
+	.syntax--import-all {
 		color: @light-orange;
 		// keywords are definded in https://github.com/atom/language-javascript/blob/master/grammars/javascript.cson
 		// search "instanceof" for location
 	}
-	.support {
-		&.process,
-		&.variable {
+	.syntax--support {
+		&.syntax--process,
+		&.syntax--variable {
 			color: @red;
 		}
-		&.dom {
+		&.syntax--dom {
 			color: @red;
 		}
 	}
-	.constant {
-		&.undefined {
+	.syntax--constant {
+		&.syntax--undefined {
 			color: @light-yellow;
 		}
 	}

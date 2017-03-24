@@ -1,5 +1,4 @@
 @import "syntax-variables";
-:host,
 atom-text-editor {
 	background-color: @syntax-background-color;
 	color: @syntax-text-color;
@@ -39,13 +38,11 @@ atom-text-editor {
 	.selection .region {
 		background-color: @syntax-selection-color;
 	}
-}
-:host .search-results .marker .region,
-atom-text-editor .search-results .marker .region {
-	background-color: transparent;
-	border: 1px solid @syntax-result-marker-color;
-}
-:host .search-results .marker.current-result .region,
-atom-text-editor .search-results .marker.current-result .region {
-	border: 1px solid @syntax-result-marker-color-selected;
+	.search-results .marker .region {
+		background-color: transparent;
+		border: 1px solid @syntax-result-marker-color;
+	}
+	.search-results .marker.current-result .region {
+		border: 1px solid @syntax-result-marker-color-selected;
+	}
 }

@@ -1,66 +1,66 @@
-.source.css {
-	.attribute-name {
-		&.class {
+.syntax--source.syntax--css {
+	.syntax--attribute-name {
+		&.syntax--class {
 			color: @green;
-			& > .definition.entity {
+			& > .syntax--definition.syntax--entity {
 				color: @green;
 			}
 		}
-		&.id {
+		&.syntax--id {
 			color: @orange;
-			& > .definition.entity {
+			& > .syntax--definition.syntax--entity {
 				color: @orange;
 			}
 		}
-		&.parent-selector {
-			& > .definition {
+		&.syntax--parent-selector {
+			& > .syntax--definition {
 				color: @yellow;
 			}
 		}
 	}
 	// highlight properties/values if they are supported
-	.property-name {
+	.syntax--property-name {
 		color: @blue;
 	}
-	.property-value {
+	.syntax--property-value {
 		color: @blue;
-		&.constant,
-		&.meta {
+		&.syntax--constant,
+		&.syntax--meta {
 			color: @light-yellow;
 		}
 	}
-	.punctuation {
-		&.separator,
-		&.terminator {
+	.syntax--punctuation {
+		&.syntax--separator,
+		&.syntax--terminator {
 			color: @blue;
 		}
-		&.definition {
+		&.syntax--definition {
 			color: @yellow;
-			&.comment {
+			&.syntax--comment {
 				color: @light-gray;
 			}
-			&.entity {
+			&.syntax--entity {
 				color: @blue;
 			}
-			&.string {
+			&.syntax--string {
 				color: @green;
 			}
 		}
 	}
-	.constant {
-		&.color,
-		&.rgb-value {
+	.syntax--constant {
+		&.syntax--color,
+		&.syntax--rgb-value {
 			color: @light-yellow;
 		}
 	}
-	.function {
+	.syntax--function {
 		color: @yellow;
-		&.section {
+		&.syntax--section {
 			color: @blue;
 		}
 	}
-	.meta {
-		&.brace.round {
+	.syntax--meta {
+		&.syntax--brace.syntax--round {
 			color: @blue;
 		}
 	}
